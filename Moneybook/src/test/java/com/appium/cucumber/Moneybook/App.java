@@ -30,7 +30,7 @@ public class App {
 	@Before
 	public void setUp() throws Exception{
 		
-		File classpathRoot = new File("D:/hanzisu/Moneybook");
+		File classpathRoot = new File("D:/hanzisu/myrepo/moneybook/Moneybook");
         File appDir = new File(classpathRoot, "/Downloadapk");
         File app = new File(appDir, "moneybook_1.2.6.apk");
         DesiredCapabilities capabilities = new DesiredCapabilities();
