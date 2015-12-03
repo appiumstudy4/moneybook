@@ -35,8 +35,8 @@ public class App {
         File app = new File(appDir, "moneybook_1.2.6.apk");
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("platformName", "Android");
-        capabilities.setCapability("deviceName", "410022b2f248b15f");
-        capabilities.setCapability("platformVersion", "5.1");
+        capabilities.setCapability("deviceName", "c9bc4aba");
+        capabilities.setCapability("platformVersion", "4.4");
         capabilities.setCapability("app", app.getAbsolutePath());
         capabilities.setCapability("appPackage", "com.nhn.android.moneybook");
         capabilities.setCapability("unicodeKeyboard", true);
